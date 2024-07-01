@@ -1,0 +1,337 @@
+ /* Global styles */
+ * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif; /* Use Google Fonts or your preferred font */
+}
+
+body {
+	background-color: #f8f8f8;
+	color: #333;
+	line-height: 1.6;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Header styles */
+.navbar {
+	background-color: /* #795548 */ #051e58; /* Brown color */
+	padding: 10px 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-links {
+	list-style-type: none;
+	display: flex;
+}
+
+.nav-links li {
+	margin: 0 15px;
+}
+
+.nav-links a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+	color: #ffc107;
+}
+
+.logo {
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+/* Hero section styles */
+.hero {
+	background-color: /* #795548 */ #f9cd52; /* Brown color */
+	color: #fff;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.hero h2 {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+
+.tagline {
+	font-size: 1.5rem;
+}
+
+/* Goals section styles */
+.goals-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 30px;
+	margin-top: 40px;
+}
+
+.goal {
+	background-color: /* #8d6e63 */ #051e58; /* Darker shade of brown */
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+
+.goal img {
+	max-width: 80px;
+	margin-bottom: 10px;
+}
+
+.goal p {
+	font-size: 1.2rem;
+}
+
+/* Current Information section styles */
+.current-details {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	margin-top: 40px;
+}
+
+.detail {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.profile-pic {
+grid-column: span 2; /* Make the profile picture span two columns */
+margin-bottom: 20px;
+}
+
+.profile-pic img {
+	width: 100%;
+	border-radius: 50%;
+	max-width: 150px;
+}
+
+/* Links section styles */
+.links-list {
+	list-style-type: none;
+	margin-top: 40px;
+}
+
+.links-list li {
+	margin-bottom: 10px;
+}
+
+.links-list a {
+	color: #007bff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: color 0.3s ease;
+}
+
+
+.links-list a:hover {
+	color: /* #ffc107 */ #f9cd52;
+}
+
+/* Footer styles */
+footer {
+	background-color: /* #795548 */ #051e58; /* Brown color */
+	color: #fff;
+	text-align: center;
+	padding: 20px 0;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #f0f0f0;
+	padding: 20px;
+	text-align: center;
+}
+
+header img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin: 10px;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+section {
+	background-color: #fff;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+	color: #333;
+	margin: 10px;
+}
+
+p {
+	margin: 10px;
+}
+a {
+	text-decoration: none;
+	color: #337ab7;
+}
+
+a:hover {
+	color: #23527c;
+}
+
+#currentTimeUTC, #currentDay {
+	font-size: 24px;
+	font-weight: bold;
+	color: #666;
+}
+ */
