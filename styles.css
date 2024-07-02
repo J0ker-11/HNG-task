@@ -219,7 +219,37 @@ footer {
 		display: none;
 	}
 
-	
+	.logo {
+		font-size: 1rem;
+	}
+
+	.goal {
+		width: 93%;
+	}
+
+	.hero {
+		padding-top: 8em;
+	}
+
+	.hero h2 {
+		font-size: 2rem;
+		margin-bottom: 1px;
+	}
+
+	.current-details {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.container {
+		text-align: center;
+	}
+	.links-list {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
 }
 
 
