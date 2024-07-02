@@ -20,7 +20,7 @@ body {
 
 /* Header styles */
 .navbar {
-	background-color: /* #795548 */ #051e58; /* Brown color */
+	background-color:  #051e58;
 	padding: 10px 0;
 	position: fixed;
 	width: 100%;
@@ -102,7 +102,7 @@ body {
 
 /* Hero section styles */
 .hero {
-	background-color: /* #795548 */ /* #f9cd52 */ #051e58; /* Brown color */
+	background-color: #051e58; 
 	color: #fff;
 	text-align: center;
 	padding: 100px 0;
@@ -366,15 +366,6 @@ footer {
 		align-items: center;
 		gap: 20px;
 	}
-
-/* 	.current-details {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-} */
-
-/* .goals-list {
-	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-} */
 
 }
 
