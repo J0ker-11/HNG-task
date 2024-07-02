@@ -388,6 +388,22 @@ footer {
 
 
 
+@media (max-width: 1440px) {
+	.links-list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 20px;
+	}
+
+	.links-list a {
+		font-size: 1.8rem;
+	}
+}
+
+
+
+
 
 
 
